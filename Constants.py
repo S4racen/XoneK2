@@ -3,6 +3,10 @@ from _Livid_Framework.LividConstants import *
 MIDI_CC_TYPE = 1
 MIDI_NOTE_TYPE = 0
 
+SCROLLING = {
+  "vertical" : 20,
+  "horizontal" : 21}
+
 RETURNS = 0
 CHANNEL = 14 # All things must be on one channel
 

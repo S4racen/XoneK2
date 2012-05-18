@@ -32,6 +32,7 @@ class K2(LividControlSurface):
   def setup_session(self):
     self.session = LividSessionComponent(
         button_class = LEDButtonElement,
+        scroll_navigation = SCROLLING,
         channel = CHANNEL,
         matrix = MATRIX, 
         color_mappings = COLOR_MAPPINGS,
