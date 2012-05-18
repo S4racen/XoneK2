@@ -21,15 +21,9 @@ SENDS = [
 
 SOLOS = [
     {"note" : 40, "on_color" : GREEN, "off_color" : OFF}, 
-    41, 42, 43]
-
-
-NAVIGATION_BUTTONS = {
-    'up' : 70,
-    'down' : 78,
-    'left' : 77,
-    'right' : 79}
-# Grid of button notes
+    {"note" : 41, "on_color" : GREEN, "off_color" : OFF}, 
+    {"note" : 42, "on_color" : GREEN, "off_color" : OFF}, 
+    {"note" : 43, "on_color" : GREEN, "off_color" : OFF}] 
 
 TRIGGERED_VALUE = RED
 RECORD_VALUE = RED
@@ -46,11 +40,3 @@ MATRIX = [
     [32, 33, 34, 35],
     [28, 29, 30, 31],
     [24, 25, 26, 27]]
-
-SCENE_LAUNCH = [56, 57, 58, 59, 60]
-
-STOPS = [5, 13, 21, 29, 37, 45, 53]
-
-ARMS =  [7, 15, 23, 31, 39, 47, 55]
-TRACK_SELECTS =  [65, 73, 66, 74, 67, 75, 68]
-MASTER_SELECT = 76
