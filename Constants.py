@@ -10,8 +10,8 @@ SCROLLING = {
 RETURNS = 0
 CHANNEL = 14 # All things must be on one channel
 
-BPM_UP = 61
-BPM_DOWN = 62
+BPM_UP = 53
+BPM_DOWN = 52
 
 # It is assumed that these will use the global channel
 # And will be CCs
