@@ -10,7 +10,7 @@ from _AllenAndHeath_Framework.AllenAndHeathControlSurface import AllenAndHeathCo
 from _AllenAndHeath_Framework.LEDButtonElement import LEDButtonElement
 
 
-class K2(LividControlSurface):
+class K2(AllenAndHeathControlSurface):
   __module__ = __name__
   __doc__ = " K2 controller script "
 
