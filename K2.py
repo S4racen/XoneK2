@@ -2,23 +2,23 @@ import Live
 
 from Constants import *
 
-from _Livid_Framework.LividMixerComponent import LividMixerComponent
-from _Livid_Framework.LividSessionComponent import LividSessionComponent
-from _Livid_Framework.LividTransportComponent import LividTransportComponent
-from _Livid_Framework.LividSessionZoomingComponent import LividSessionZoomingComponent
-from _Livid_Framework.LividControlSurface import LividControlSurface
-from _Livid_Framework.LEDButtonElement import LEDButtonElement
+from _AllenAndHeath_Framework.AllenAndHeathMixerComponent import AllenAndHeathMixerComponent
+from _AllenAndHeath_Framework.AllenAndHeathSessionComponent import AllenAndHeathSessionComponent
+from _AllenAndHeath_Framework.AllenAndHeathTransportComponent import AllenAndHeathTransportComponent
+from _AllenAndHeath_Framework.AllenAndHeathSessionZoomingComponent import AllenAndHeathSessionZoomingComponent
+from _AllenAndHeath_Framework.AllenAndHeathControlSurface import AllenAndHeathControlSurface
+from _AllenAndHeath_Framework.LEDButtonElement import LEDButtonElement
 
 
 class K2(LividControlSurface):
   __module__ = __name__
-  __doc__ = " Ohmicide controller script "
+  __doc__ = " K2 controller script "
 
   def __init__(self, c_instance):
-    LividControlSurface.__init__(self, c_instance)
+    AllenAndHeathControlSurface.__init__(self, c_instance)
 
   def setup_mixer(self):
-    self.mixer = LividMixerComponent(
+    self.mixer = AllenAndHeathMixerComponent(
         channel = CHANNEL,
         faders = FADERS, 
         sends = SENDS, 
@@ -30,7 +30,7 @@ class K2(LividControlSurface):
         #arms = ARMS)
   
   def setup_session(self):
-    self.session = LividSessionComponent(
+    self.session = AllenAndHeathSessionComponent(
         button_class = LEDButtonElement,
         scroll_navigation = SCROLLING,
         channel = CHANNEL,
