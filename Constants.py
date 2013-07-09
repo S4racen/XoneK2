@@ -1,4 +1,4 @@
-from _Livid_Framework.LividConstants import *
+from _AllenAndHeath_Framework.AllenAndHeathConstants import *
 
 MIDI_CC_TYPE = 1
 MIDI_NOTE_TYPE = 0
